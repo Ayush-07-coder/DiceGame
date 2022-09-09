@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-family: cursive;
+    background-color: black;
+}
+.result{
+    font-weight: bold;
+    color: #adff2f;
+    font-size: 70px;
+}
+.frame{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img1, .img2{
+    height: 130px;
+    width: 130px; 
+}
+.img1{
+    margin-right: 100px;
+}
+.play{
+    padding: 10px;
+    font-weight: bold;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+.play:hover{
+    background-color:  #FF6347;;
+    transform: translateY(10px);
+}
+.score{
+    color: #adff2f;
+    font-size: 20px;
+    margin: 0px;
+}
+.dice-image{
+    margin-bottom: 100px;
+}
